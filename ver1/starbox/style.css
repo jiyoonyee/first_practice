@@ -1,0 +1,563 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style-type: none;
+}
+/* 웹 이미지 */
+.web_img{
+    height: 0;
+}
+.web_img1{
+    position: fixed;
+    top: 150px;
+    right: 170px;
+    z-index: 20;
+}
+.web_img2{
+    position: fixed;
+    top: 250px;
+    right: 170px;
+    z-index: 20;
+}
+
+/* 헤더 */
+header{
+    border-top: 2px solid black;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: #F7F5F0;
+    z-index: 20;
+}
+/* 로고 */
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* 로그인 메뉴 */
+
+.login{
+    display: flex;
+    justify-content: space-around;
+}
+.login>ul{
+    margin: 10px;
+}
+.login>ul>li>a{
+    font-size: 13px;
+}
+.login>ul>li>a:hover{
+    text-decoration: underline;
+}
+.search{
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+/* 카페메뉴 */
+.cafe{
+    font-size: 15px;
+}
+
+.cafe_menu>div>a:hover{
+    background-color: black;
+    text-decoration: underline;
+    color: green;
+}
+
+/* 메인 */
+main{
+    margin-top: 118px;
+}
+
+/* 1page */
+.background1{
+    background-image: url(background1.jpg);
+    background-size: cover;
+    height: 620px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.summeron{
+    margin-bottom: 40px;
+}
+.more{
+    margin-left: 250px;
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.more_text{
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 8px;
+    margin-left: 128px;
+    width: 100px;
+    font-size: 14px;
+}
+.more_text:hover{
+    color: black;
+    background-color: white;
+    text-decoration: underline;
+    transition: 0.7s ease-out;
+}
+.more_text:not(:hover){
+    transition:0.7s ease-out ;
+}
+.tea1{
+    position: relative;
+    top: 100px;
+    left: 100px; 
+}
+
+.tea2{
+    position: relative;
+    top: 100px;
+    left: 230px;
+}
+.tea3{
+    position: relative;
+    top: 230px;
+    right: 800px;
+}
+.tea4{
+    position: relative;
+    bottom: 113px;
+    left: 450px;
+}
+
+/* 2page */
+.background2{
+    display: flex;
+    justify-content: space-between;
+}
+.inform{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 54%;
+    background-color: black;
+    color: white;
+    padding: 12px;
+}
+.inform_text{
+    display: flex;
+    justify-content: center;
+}
+.inform_a{
+    padding: 5px;
+    font-size: 14px;
+    color: white;
+}
+.inform_a:hover{
+    text-decoration: underline;
+}
+.promotion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 46%;
+    background-color: #F7F5F0;
+}
+.promotion>img{
+    margin-left: 100px;
+}
+/* 3page */
+.background3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 65, 56);
+    color: white;
+    padding: 10px;
+}
+.reward_text{
+    margin: 30px;
+}
+.reward_title{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.reward_login{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.reward_login_button{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.member_button{
+    font-size: 14px;
+    color: white;
+    background-color: rgb(0, 100, 0);
+    border: 2px solid rgb(0, 100, 0);
+    border-radius: 5px;
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 5px;
+}   
+.login_button{
+    font-size: 14px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 5px;
+}
+.reward_gift{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.reward_gift_text{
+    font-size: 15px;
+}
+.reward_gift_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+.gift_button{
+    font-size: 14px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 5px;
+}
+.member_button:hover,.login_button:hover,.gift_button:hover{
+    text-decoration: underline;
+}
+
+/* 4page */
+.background4{
+    background-image: url(background4.jpg);
+    background-size: cover;
+    height: 550px;
+}
+.priangan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.priangan_text>a{
+    font-size: 13.5px;
+    padding: 7px;
+    border: 2px solid #856830;
+    color: #856830;
+    text-align: center;
+    width: 100px;
+    border-radius: 5px;
+}
+.priangan_text>a:hover{
+    text-decoration: underline;
+    color: white;
+    background-color: #856830;
+    transition: 0.7s ease-out;
+}
+.priangan_text>a:not(:hover){
+    transition: 0.7s ease-out;
+}
+
+/* 5pge */
+.background5{
+    background-image: url(background5.jpg);
+    background-size: cover;
+    height: 360px;
+}
+.papua{
+    background-image: url(https://image.istarbucks.co.kr/upload/common/img/main/2023/230418_pc_reserve_coffee_bg.png);
+    background-size: cover;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.papua_text{
+    margin-right: 450px;
+}
+.papua_text>a{
+    font-size: 13.5px;
+    text-align: center;   
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 7px;
+    width: 100px;
+    margin-left: 94px;
+}
+.papua_text>a:hover{
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+    transition: 0.7s ease-out;
+}
+.papua_text>a:not(:hover){
+    transition: 0.7s ease-out;
+}
+
+/* 6page */
+
+.background6>img{
+    position: fixed;
+    bottom: 0px;
+    width: auto;
+    height:850px;
+    z-index: -20;
+}
+.favorite{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px;
+}
+.favorite_text{
+    margin-left: 370px;
+}
+.favorite_text>a{
+    font-size: 13.5px;
+    text-align: center;   
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 40px;
+    padding: 7px;
+    width: 100px;
+    margin-left: 237px;
+}
+.favorite_text>a:hover{
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+    transition: 0.7s ease-out;
+}
+.favorite_text>a:not(:hover){
+    transition: 0.7s ease-out;
+}
+
+/* 7page */
+.background7{
+    background-color: white;
+    height: 430px;
+    z-index: 10;
+}
+.background7>img{
+    margin-top: 50px;
+    z-index: 10;
+}
+.reserve{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0px;
+}
+.reserve_text{
+    position: relative;
+    left: 100px;
+    bottom: 230px;
+    z-index: 5;
+}
+.reserve_img{
+    position: relative;
+    bottom: 237px;
+}
+.reserve>a{
+    border: 2px solid black;
+    color: black;
+    border-radius: 5px;
+    font-size: 13.5px;
+    padding: 7px;
+    width: 100px;
+    text-align: center;
+    position: relative;
+    bottom: 130px;
+    right: 710px;
+}
+.reserve>a:hover{
+    text-decoration: underline;
+    background-color: black;
+    color: white;
+    transition: 0.7s ease-out;
+}
+.reserve>a:not(:hover){
+    transition: 0.7s ease-out;
+}
+
+/* 8page */
+.background8{
+    background-image: url(https://www.starbucks.co.kr/common/img/main/store_bg.jpg);
+    background-size: cover;
+    height: 400px;
+}
+.coffee_been{
+    display: flex;
+    justify-content: center;
+
+}
+.coffee_been>img{
+    position: relative;
+    top: 0px;
+}
+.anywhare{
+    display: flex;
+    justify-content: center;
+    height: 0px;
+}
+.anywhare_img{
+    position: relative;
+    top: -142px;
+}
+.anywhare_img2{
+    position: relative;
+    top: 70px;
+    right: 130px;
+}
+.anywhare_text{
+    position: relative;
+    bottom: 40px;
+}
+.anywhare_text>a{
+    border: 2px solid black;
+    color: black;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 7px;
+    width: 100px;
+    text-align: center;
+}
+.background8>img{
+    position: relative;
+    bottom: -156px;
+    right: -1300px;
+}
+.anywhare_text>a{
+    border: 2px solid black;
+    color: black;
+    border-radius: 5px;
+    font-size: 13.5px;
+    padding: 7px;
+    width: 100px;
+    text-align: center
+}
+.anywhare_text>a:hover{
+    text-decoration: underline;
+    background-color: black;
+    color: white;
+    transition: 0.7s ease-out;
+}
+.anywhare_text>a:not(:hover){
+    transition: 0.7s ease-out;
+}
+
+/* footer */
+footer{
+    background-color: rgb(44, 36, 36);
+}
+.footer_menu{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+.footer_menu>ul{
+    margin: 43px;
+    color: white;
+}
+.footer_menu>ul>li{
+    margin-bottom: 5px;
+}
+.footer_menu>ul>li>a{
+    font-size: 12px;
+    color: white
+}
+.footer_menu>ul>li>a:hover{
+    text-decoration: underline;
+}
+.footer_reward{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.copyright{
+    margin-top: 50px;
+    background-color: rgb(44, 36, 36);
+}
+.copyright_ul{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.copyright_ul>li{
+    float: left;
+}
+.copyright_ul>li>a{
+    color: gainsboro;
+    font-size: 12px;
+    margin: 5px;
+}
+.copyright_ul>li>a:hover{
+    text-decoration: underline;
+}
+.load>ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.load>ul>li{
+    float: left;
+}
+.load>ul>li>a{
+    display: block;
+    text-align: center;
+    padding:7px;
+    color: white;
+    font-size: 12px;
+    width: 100px;
+    margin: 5px;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+.load>ul>li>a:hover{
+    text-decoration: underline;
+}
+.company{
+    margin-top: 15px;
+    font-size: 12px;
+    color: gray;
+}
+.company>ul{
+    display: flex;
+    justify-content: center;
+}
+.company>ul>li{
+    margin: 10px;
+    float: left;
+}
+.license{
+    color: gray;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+

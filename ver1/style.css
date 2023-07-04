@@ -1,0 +1,63 @@
+*{
+    margin: 5;
+    padding: 0;
+}
+.title{
+    font-size: 100px;
+}
+
+.my{
+    list-style-type: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+    text-align: center;
+}
+.name,.job,.birthday,.email,.school{
+    text-align: center;
+    font-size: 34px;
+}
+.a_school,.a_game,.a_char{
+    text-decoration: none;
+}
+.infor{
+    background-color: beige;
+}
+.favorite{
+    background-color: beige;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.P{
+    font-size: 30px;
+}
+
+.game_img{
+    width: 300px;
+    height: 300px;
+}
+
+.char_img{
+    width: 270px;
+    height: 300px;
+}
+
+.food_img{
+    width: 300px;
+    height: 300px;
+}
+.last{
+    text-align: center;
+    background-color: bisque;
+}
+
+
+
+
+
+
+

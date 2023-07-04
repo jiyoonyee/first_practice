@@ -1,0 +1,213 @@
+.header{
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    float: left;
+}
+
+.headertop{
+    display: flex;
+    text-align: right;
+    width: 100%;
+}
+
+.top_ul{
+    position: absolute;
+    right: 430px;
+    display: flex;
+    text-align: right;
+}
+
+.headerbottom{
+    justify-content: space-around;
+}
+
+.bottom_ul{
+    text-align: center;
+    display: flex;
+}
+
+.line{
+    border: none;
+}
+
+.search{
+    width: 500px;
+    height: 290px;
+    border: 2px solid #000066;
+    margin-top: 1rem;
+    margin-left: 22rem;
+}
+.changup{
+    width: 500px;
+    height: 290px;
+    border: 2px solid #000066;
+    margin-top: 1rem;
+    margin-left: 22rem;
+}
+.search_tool{
+    margin-top: 80px;
+    margin-left: 60px;
+}
+.back_img{
+    position: absolute;
+    bottom: -1580px;
+    left:672px;
+}
+.store{
+    color: #000066;
+    margin: 20px;
+    margin-left: 60px;
+}
+.franchise{
+    color: #000066;
+    margin: 20px;
+    margin-left: 60px;
+}
+.st_title{
+    margin: 20px;
+    margin-left: 60px;
+}
+.follow{
+    margin: 20px;
+    margin-left: 60px;
+}
+.input{
+    width: 300px;
+    height: 40px;
+    border-color: #000066;
+}
+.back_logo{
+    width: 190px;
+    height: 190px;
+}
+
+h4{
+    margin: 20px;
+}
+.input{
+    font-size: 20px;
+}
+
+.f_img{
+    height: 15px;
+    width: 15px;
+}
+
+.i_img{
+    height: 15px;
+    width: 15px;
+}
+
+.A_img{
+    width: 100%;
+    height: auto;
+}
+
+.B_img{
+    width: 100%;
+    height: auto;
+}
+
+.C_img{
+    width: 60%;
+    height: auto;
+}
+
+.D_img{
+    width: 39%;
+    height: auto;
+}
+
+.E_img{
+    position: absolute;
+    right: 0;
+}
+
+.middle_img{
+    display: flex;
+}
+
+.bottom{
+    display: inline-block;
+    border:1px ;
+    border-color: #000066;
+}
+.bottom_sns{
+    margin-top: 70px;
+    text-align: center;
+}
+h2 {
+    font-family: 'Cafe24ClassicType-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Cafe24ClassicType-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 35px;
+} 
+.shap{
+    color: gray ;
+}
+.shap_line{
+    border-width: 0.5px;
+    width: 45px;
+    border-color: #000066;
+}
+.sns_img{
+    margin: 30px;
+}
+.sns_f{
+    width: 30px;
+    height: 30px;
+}
+.sns_i{
+    width: 30px;
+    height: 30px;
+}
+.cross_line{
+    border: 1px solid #FFFF00;
+}
+.theborn{
+    width: 185px;
+    height: 45px;
+    margin-top: 1rem;
+}
+.footer{
+    text-align: center;
+}
+
+.info1{
+    margin-left: 39%;
+    float: left;
+    display: flex;
+    font-size: 12px;
+}
+.info2{
+    margin-left: 38%;
+    float: left;
+    display: flex;
+    font-size: 12px;
+}
+.info3{
+    margin-left: 36.5%;
+    float: left;
+    display: flex;
+    font-size: 12px;
+}
+.info4{
+    margin-left: 39%;
+    float: left;
+    display: flex;
+    font-size: 12px;
+}
+.li_line{
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
