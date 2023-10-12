@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@200;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body{
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: #C3C3C3;
+    border-bottom: 1px solid black;
+    font-weight: 600;
+}
+
+.logo{
+    width: 60%;
+}
+
+.ranking_menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ranking_menu>a{
+    font-size: 3em;
+    margin: 0px 20px;
+}
+
+.search_wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+}
+.search_wrap>a{
+    margin: 0px 20px;
+}
+
+.search{
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: #EFEFEF;
+    border-radius: 100px;
+}
+.input_nickname{
+    border: none;
+    outline: none;
+    background-color: #EFEFEF;
+    padding: 0px 20px;
+    font-size: 1rem;
+}
+
+.search_button{
+    border: none;
+}
+.search_button>img{
+    width: 40px;
+    height: 40px;
+}
+
+
+/* main */
+.page1{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+}
+
+.page1>div{
+    margin: 20px 30px;
+    width: 35vw;
+}
+
+.profile_text{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.profile_info{
+    border: 2px solid black;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.profile_info_text{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.profile_info_text>p{   
+    font-size: 30px;
+    text-align: center;
+    width: 33%;
+
+}
+
+.profile_info_detail{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.profile_info_detail>p{
+    font-size: 20px;
+    text-align: center;
+    width: 33%;
+}
+
+/* main_tier */
+.tier{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.tier_info{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    height: 80%;
+}
+
+/* 공식전 */
+.rank_tier{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+.rank_tier_img{
+    width: 26%;
+}
+.rank_record{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.rank_record>p{
+    margin: 0px 5px;
+}
+.rank_point{
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+}
+.rank_point>p{
+    margin: 0px 5px;
+}
+/* 일반전 */
+.normal_tier{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+.normal_tier_img{
+    width: 26%;
+}
+.normal_record{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.normal_record>p{
+    margin: 0px 5px;
+}
+
+/* page2 */
+.page2{
+    display: flex;
+    justify-content: center;
+}
+
+.page2>div{
+    margin: 20px 30px;
+}
+
+.kda{
+    width: 50%;
+}
+
+.kda_text{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.kda_text>p:nth-child(1){
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.kda_text>p:nth-child(2){
+    font-size: 5px;
+}
+
+.kda_info{
+    border: 2px solid black;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.kda_info_text{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.kda_info_text>p{   
+    font-size: 30px;
+    text-align: center;
+    width: 25%;
+}
+
+.kda_info_detail{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.kda_info_detail>p{
+    font-size: 20px;
+    text-align: center;
+    width: 25%;
+}
+
+/* page3 */
+.page3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.match{
+    width: 52%;
+    margin: 5px 0px;
+}
+.match_record{
+    width: 52%;
+    margin: 5px 0px;
+}
+
+
+.match_text_detail{
+    font-size: 40px;
+    font-weight: 500;
+    
+}
+
+.match_text{
+    display: flex;
+}
+
+.match_type_switch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.match_type_rating{
+    color: black;
+    cursor: pointer;
+}
+.match_type_normal{
+    color: #adadad;
+    cursor: pointer;
+}
+.match_type_switch>hr{
+    border: 1px solid black;
+    border-radius: 100px;
+    height: 35%;
+    margin: 0px 5px;
+}
+
+.matches{
+    margin: 5px 0px;
+}
+
+/* 승/패 */
+.match_info_win{
+    background-color: #56ABF9;
+    height: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.match_info_lose{
+    background-color: #FF6666;
+    height: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.match_info_win>div:nth-child(n+2){
+    margin: 0px 10px;
+}
+
+.match_info_lose>div:nth-child(n+2){
+    margin: 0px 10px;
+}
+
+/* 승/패 */
+.result_border_win{
+    background-color: #4951FF;
+    height: 100%;
+    width: 15px;
+}
+.result_border_lose{
+    background-color: #C11616;
+    height: 100%;
+    width: 15px;
+}
+
+/* 승/패 */
+.result_text_win{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px 5px;
+    width: 100%;
+}
+.result_text_lose{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px 5px;
+    width: 100%;
+}
+
+.match_profile_detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.match_profile_win{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.match_profile_lose{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+/* 승/패 */
+.match_profile_win>img{
+    width: 8%;
+    height: 8%;
+    border: 2px solid #000dff;
+    border-radius: 100px;
+}   
+.match_profile_lose>img{
+    width: 8%;
+    height: 8%;
+    border: 2px solid #FF1D1D;
+    border-radius: 100px;
+}  
+
+.match_profile_win>div{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px 5px ;
+    width: 210px;
+}
+
+.match_profile_lose>div{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px 5px ;
+    width: 210px;
+}
+
+.character_profile_detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.character_profile_detail>p{
+    font-size: 15px;
+}
+
+
+
+.match_kda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+.match_kda>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0px 80px;
+}
+.match_kda>div>p{
+    text-align: center;
+    font-size: 14px;
+    width: 25%;
+}
+.match_kda>hr{
+    width: 100%;
+    border: 1px solid black;
+    margin: 10px 0px;
+}
+.match_point{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.match_none{
+    font-size: 20px;
+
+}

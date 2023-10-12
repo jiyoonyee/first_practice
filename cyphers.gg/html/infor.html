@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/infor_style.css">
+</head>
+<body>
+    <header>
+        <a href="#"><img class="logo" src="../img/logo.png" alt="로고"></a>
+       
+        <div class="ranking_menu">
+            <a href="#">통합 랭킹</a>
+            <a href="#">투신전 랭킹</a>
+            <a href="#">캐릭터 랭킹</a>
+        </div>
+        
+        <div class="search_wrap">
+            <a href="main.html">전적 검색</a>
+            <div class="search">
+                <input class="input_nickname" maxlength="8" placeholder="닉네임을 입력하시오" type="text">
+                <button class="search_button"><img src="../img/search.png" alt=""></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="page1">
+            <div class="profile">
+                <p class="profile_text">프로필</p>
+                <div class="profile_info">
+                    <div class="profile_info_text">
+                        <p>닉네임</p>
+                        <p>급수</p>
+                        <p>클랜</p>
+                    </div>
+                    <hr>
+                    <div class="profile_info_detail">
+                        <p class="nickname">-</p>
+                        <p class="grade">-</p>
+                        <p class="clan">-</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 티어 -->
+            <div class="tier">
+                <p class="tier_text">티어</p>
+
+                <div class=" tier_info">
+                    <!-- 랭크전 -->
+                    <div class="rank_tier">
+                        <p>공식전</p>
+                        <img class="rank_tier_img" src="../img/unrank.png" alt="">
+                        <div class="rank_record">
+                            <p class="rank_win">-승</p>
+                            <p class="rank_lose">-패</p>
+                            <p class="rank_stop">-중단</p>
+                        </div>
+                        <div class="rank_winning">
+                            <p class="rank_winning_point">승률:-%</p>
+                        </div>
+                        <div class="rank_point">
+                            <p class="tier_name">Unrank</p>
+                            <p class="now_rp">현재 RP:-</p>
+                            <p class="top_rp">최고 RP:-</p>
+                        </div>
+                    </div>
+
+                    <!-- 일반전 -->
+                    <div class="normal_tier">
+                        <p>일반전</p>
+                        <img class="normal_tier_img" src="../img/unrank.png" alt="">
+                        <div class="normal_record">
+                            <p class="normal_win">-승</p>
+                            <p class="normal_lose">-패</p>
+                            <p class="normal_stop">-중단</p>
+                        </div>
+                        <div class="normal_winning">
+                            <p class="normal_winning_point">승률:-%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="page2">
+
+            <div class="kda">
+                <div class="kda_text">
+                    <p>평균 KDA</p>
+                    <p>최근 공식전 10판의 평균 KDA입니다.</p>
+                </div>
+                <div class="kda_info">
+                    <div class="kda_info_text">
+                        <p>킬</p>
+                        <p>데스</p>
+                        <p>어시스트</p>
+                        <p>KDA</p>
+                    </div>
+                    <hr>
+                    <div class="kda_info_detail">
+                        <p class="kill">0</p>
+                        <p class="deadth">0</p>
+                        <p class="assist">0</p>
+                        <p class="KDA">0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page3">
+            <div class="match">
+                <div class="match_text">
+                    <p class="match_text_detail" title="최근 10경기의 기록을 보여줍니다.">최근 전적</p>
+                    <div class="match_type_switch">
+                        <p class="match_type_rating">공식전</p>
+                        <hr>
+                        <p class="match_type_normal">일반전</p>
+                    </div>
+                </div>
+            </div>
+            <div class="match_record">
+                
+            </div> 
+        </div>
+    </main>
+
+    <script src="../js/infor_js.js"></script>
+    
+</body>
+</html>
